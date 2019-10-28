@@ -1,0 +1,37 @@
+{
+  "name": "pimatic-esp-climate",
+  "description": "Pimatic Plugin to Provide devices for ESPimatic based sensors",
+  "author": {
+    "name": "Danny Wigmans"
+  },
+  "main": "esp-climate",
+  "files": [
+    "esp-climate.coffee",
+    "esp-climate-config-schema.coffee",
+    "device-config-schema.coffee",
+    "devices",
+    "actions",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "Climate",
+    "ESPimatic",
+    "Pimatic"
+  ],
+  "version": "0.0.1",
+  "license": "AGPL-3.0",
+  "configSchema": "esp-climate-config-schema.coffee",
+  "dependencies": {
+    "decl-api": "0.0.24",
+    "pimatic-plugin-commons": "^0.9.8"
+  },
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "pimatic": ">=0.8.0 <1.0.0"
+  },
+  "engines": {
+    "node": ">= 4",
+    "npm": ">1.1.x"
+  }
+}
